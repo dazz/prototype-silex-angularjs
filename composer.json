@@ -8,7 +8,10 @@
         }
     },
     "require": {
-        "silex/silex": "~1.2"
+        "silex/silex": "~1.2",
+        "twig/twig": ">=1.8,<2.0-dev",
+        "symfony/twig-bridge": "~2.3",
+        "symfony/templating": "~2"
     },
     "require-dev": {
         "symfony/browser-kit": "~2.5",
